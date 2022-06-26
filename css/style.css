@@ -202,12 +202,12 @@ body {
 
 @media (max-width:450px) {
   .info-container {
-    width: 500px;
+    width: 430px;
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .memory-game-blocks {
-    width: 500px;
+    width: 450px;
   }
 }
