@@ -212,7 +212,7 @@ body {
   .memory-game-blocks {
     width: 95%;
     margin-top: 0.5rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 
   }
   .memory-game-blocks .game-block {
@@ -232,8 +232,8 @@ body {
   }
   .memory-game-blocks .game-block .back img {
     border: var(--border);
-    width: 4rem;
-    margin-top: calc(50% - 30px);
+    width: 5rem;
+    margin-top: 6px;
   }
  
 }
