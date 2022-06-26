@@ -209,5 +209,27 @@ body {
 
   .memory-game-blocks {
     width: 450px;
+    padding-left:2px ;
+    margin: auto;
+  }
+  .memory-game-blocks .game-block {
+    width: 115px;
+    height: 115px;
+    margin: auto;
+    margin-top: 10px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .memory-game-blocks .game-block .back img {
+    border: var(--border);
+    width: 100px;
+    margin-top: calc(50% - 50px);
+  }
+  .memory-game-blocks .game-block .front:before {
+    content: "?";
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    font-weight: bold;
   }
 }
