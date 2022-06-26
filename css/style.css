@@ -205,12 +205,13 @@ body {
     width: 430px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 2px;
   }
 
   .memory-game-blocks {
-    width: 450px;
-    padding-left:2px ;
-    margin: auto;
+    width: 430px;
+    margin-top: 2px;
+
   }
   .memory-game-blocks .game-block {
     width: 115px;
@@ -221,15 +222,4 @@ body {
     cursor: pointer;
   }
   
-  .memory-game-blocks .game-block .back img {
-    border: var(--border);
-    width: 100px;
-    margin-top: calc(50% - 50px);
-  }
-  .memory-game-blocks .game-block .front:before {
-    content: "?";
-    color: rgb(0, 0, 0);
-    font-size: 90px;
-    font-weight: bold;
-  }
 }
