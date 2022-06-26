@@ -69,10 +69,11 @@ body {
   background-color: #db8b2a;
   color: rgb(255, 255, 255);
   padding: 15px 25px;
-  font-size: 30px;
+  font-size: 1.5rem;
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
+  width: 12rem;
 
 }
 
@@ -202,24 +203,37 @@ body {
 
 @media (max-width:450px) {
   .info-container {
-    width: 430px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 2px;
+    width: 95%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
   }
 
   .memory-game-blocks {
-    width: 430px;
-    margin-top: 2px;
+    width: 95%;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
 
   }
   .memory-game-blocks .game-block {
-    width: 115px;
-    height: 115px;
+    width: 5.5rem;
+    height: 5.5rem;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 0.1rem;
     transform-style: preserve-3d;
     cursor: pointer;
   }
-  
+  .control-buttons span {
+    left: 50%;
+    top: 50%;
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    width: 12rem;
+  }
+  .memory-game-blocks .game-block .back img {
+    border: var(--border);
+    width: 4rem;
+    margin-top: calc(50% - 30px);
+  }
+ 
 }
