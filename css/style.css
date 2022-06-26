@@ -199,3 +199,15 @@ body {
     width: 500px;
   }
 }
+
+@media (max-width:450px) {
+  .info-container {
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .memory-game-blocks {
+    width: 500px;
+  }
+}
